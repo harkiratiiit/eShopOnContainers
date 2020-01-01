@@ -36,6 +36,7 @@ namespace Microsoft.eShopOnContainers.WebMVC
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the IoC container.
+        // test
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews()
